@@ -17,7 +17,7 @@ function initListners() {
             age: age,
             phoneNumber: phone,
             emailAddress: email,
-            classList: classes,
+            classList: [classes],
         };
         //console.log("This has been put into the object");
         allStudents.push(studentObj);
